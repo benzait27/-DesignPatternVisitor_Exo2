@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Client implements IVisitable {
@@ -11,6 +12,7 @@ public class Client implements IVisitable {
 	public Client(String name) {
 		super();
 		this.name = name;
+		commandes = new ArrayList<Commande>();
 	}
 
 

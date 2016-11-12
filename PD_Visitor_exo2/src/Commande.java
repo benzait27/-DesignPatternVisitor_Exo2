@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Commande implements IVisitable {
@@ -11,11 +12,13 @@ public class Commande implements IVisitable {
 	public Commande(String name) {
 		super();
 		this.name=name;
+		ligneCommande = new ArrayList<LigneCommande>();
 	}
 	
 	public Commande(String name, String nameLigne) {
 		super();
 		this.name=name;
+		ligneCommande = new ArrayList<LigneCommande>();
 		this.ligneCommande.add(new LigneCommande(nameLigne)); 
 	}
 	
