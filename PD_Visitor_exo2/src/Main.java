@@ -3,7 +3,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ConcreteVisitor cv = new ConcreteVisitor();
+     RapportCommandes cv = new RapportCommandes();
       GroupClient gc= new GroupClient("Custmer");
       
       Client c1= new Client("zaki");
